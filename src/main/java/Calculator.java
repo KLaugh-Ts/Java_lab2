@@ -128,7 +128,7 @@ public class Calculator {
                     stack.push(Double.valueOf(String.valueOf(str)));
                 else {
                     double op1 = stack.pop();
-                    double op2= stack.pop();
+                    double op2 = stack.pop();
                     double result = calculation(op1, op2, str);
                     stack.push(result);
                 }
